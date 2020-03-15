@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{E0152183-99D5-4D24-859A-54E1E05E062F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6AFD0552-7ADD-45F6-9E31-09784662FB91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{99CF5C0A-C894-4EC4-A8BE-21B84D7715D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgaMoney.Api", "AlgaMoney.Api.Api\AlgaMoney.Api.csproj", "{097C107A-EAA8-46E9-8014-055690917186}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{747B0C67-4E8A-4D7B-B116-64D291ADD96A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", "{DADE566B-687D-4E3B-815A-CF889EA572BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgaMoney.Domain", "AlgaMoney.Domain\AlgaMoney.Domain.csproj", "{0321AE5C-7D95-46F3-82FC-A739124002AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgaMoney.Infra.Data", "AlgaMoney.Infra.Data\AlgaMoney.Infra.Data.csproj", "{CE5370EF-711D-4C5C-B381-03CFFF9CCAD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{062B37FF-07E1-4A19-899A-87C7680804BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgaMoney.Infra.IoC", "AlgaMoney.Infra.IoC\AlgaMoney.Infra.IoC.csproj", "{43E754F0-495F-49AB-99C7-03C52DFD2FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgaMoney.Application", "AlgaMoney.Application\AlgaMoney.Application.csproj", "{7A65BADA-9660-4474-B80B-6A8BBF73FD7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{097C107A-EAA8-46E9-8014-055690917186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097C107A-EAA8-46E9-8014-055690917186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097C107A-EAA8-46E9-8014-055690917186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097C107A-EAA8-46E9-8014-055690917186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0321AE5C-7D95-46F3-82FC-A739124002AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0321AE5C-7D95-46F3-82FC-A739124002AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0321AE5C-7D95-46F3-82FC-A739124002AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0321AE5C-7D95-46F3-82FC-A739124002AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE5370EF-711D-4C5C-B381-03CFFF9CCAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5370EF-711D-4C5C-B381-03CFFF9CCAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5370EF-711D-4C5C-B381-03CFFF9CCAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE5370EF-711D-4C5C-B381-03CFFF9CCAD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E754F0-495F-49AB-99C7-03C52DFD2FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E754F0-495F-49AB-99C7-03C52DFD2FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E754F0-495F-49AB-99C7-03C52DFD2FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E754F0-495F-49AB-99C7-03C52DFD2FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A65BADA-9660-4474-B80B-6A8BBF73FD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A65BADA-9660-4474-B80B-6A8BBF73FD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A65BADA-9660-4474-B80B-6A8BBF73FD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A65BADA-9660-4474-B80B-6A8BBF73FD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{097C107A-EAA8-46E9-8014-055690917186} = {E0152183-99D5-4D24-859A-54E1E05E062F}
+		{0321AE5C-7D95-46F3-82FC-A739124002AA} = {747B0C67-4E8A-4D7B-B116-64D291ADD96A}
+		{CE5370EF-711D-4C5C-B381-03CFFF9CCAD5} = {DADE566B-687D-4E3B-815A-CF889EA572BA}
+		{43E754F0-495F-49AB-99C7-03C52DFD2FE5} = {062B37FF-07E1-4A19-899A-87C7680804BD}
+		{7A65BADA-9660-4474-B80B-6A8BBF73FD7D} = {99CF5C0A-C894-4EC4-A8BE-21B84D7715D6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C290F2C-CEC6-431A-851B-EA890FD3F3F9}
+	EndGlobalSection
+EndGlobal
